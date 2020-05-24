@@ -27,17 +27,17 @@ workbox.core.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-304a068704bd33b0c8f4.js"
+    "url": "webpack-runtime-6b5ffbc1264a4e82b379.js"
   },
   {
     "url": "framework-53a02ca17ab0e083345b.js"
   },
   {
-    "url": "app-cc2c22e9915cee05f9ff.js"
+    "url": "app-3daed2844560f143c916.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "43ea6a221edea8e5741c8090030aefe3"
+    "revision": "c94ebd6b90cbf75479aa26ee6d935e42"
   },
   {
     "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-c25716df4fbb2532700a.js"
@@ -48,7 +48,7 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/app-data.json",
-    "revision": "3346ae7a9087ee594ee27ab442cec12e"
+    "revision": "8fc50609f46d20af022729b58847e230"
   },
   {
     "url": "manifest.webmanifest",
@@ -145,7 +145,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/hochzeit-homepage/app-cc2c22e9915cee05f9ff.js`))) {
+  if (!resources || !(await caches.match(`/hochzeit-homepage/app-3daed2844560f143c916.js`))) {
     return await fetch(event.request)
   }
 
