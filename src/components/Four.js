@@ -23,7 +23,7 @@ const Four = props => (
               
             </section>
             <section className="col-4 col-6-medium col-12-xsmall">
-              <h3>Trautzeugen</h3>
+              <h3>Trauzeugen</h3>
             </section>
             <section className="col-4 col-6-medium col-12-xsmall">
               <h3>Sabrina Emhardt</h3>

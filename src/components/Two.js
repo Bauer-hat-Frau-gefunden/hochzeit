@@ -23,7 +23,7 @@ const Two = props => (
         </p>
         <ul className="actions">
           <li>
-            <a href="/locations" className="button">
+            <a href="/hochzeit/locations" className="button">
               Mehr details
             </a>
           </li>
