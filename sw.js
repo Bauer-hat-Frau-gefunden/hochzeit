@@ -27,17 +27,17 @@ workbox.core.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-557569b604744e3794a1.js"
+    "url": "webpack-runtime-83d590c85fce0f7af0e2.js"
   },
   {
     "url": "framework-53a02ca17ab0e083345b.js"
   },
   {
-    "url": "app-3daed2844560f143c916.js"
+    "url": "app-f7c0962e6346539b8fcf.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "ac2f55df96db7cf4e1a4a4a4b244bb7b"
+    "revision": "54d0363a4eab9b829145ee94272e88eb"
   },
   {
     "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-c25716df4fbb2532700a.js"
@@ -48,11 +48,11 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/app-data.json",
-    "revision": "a8d1d85757066853d3accdf55056fcfe"
+    "revision": "b5b99a5ec36db329620dbfde6b86dc3a"
   },
   {
     "url": "manifest.webmanifest",
-    "revision": "2edef9a10606f1a173cc38122c6241e1"
+    "revision": "1ec9ee4b912f8b502d28c64e19fb03e5"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
@@ -140,12 +140,12 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   lastNavigationRequest = event.request.url
 
   let { pathname } = new URL(event.request.url)
-  pathname = pathname.replace(new RegExp(`^/hochzeit-homepage`), ``)
+  pathname = pathname.replace(new RegExp(`^/hochzeit`), ``)
 
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/hochzeit-homepage/app-3daed2844560f143c916.js`))) {
+  if (!resources || !(await caches.match(`/hochzeit/app-f7c0962e6346539b8fcf.js`))) {
     return await fetch(event.request)
   }
 
@@ -158,7 +158,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
     }
   }
 
-  const offlineShell = `/hochzeit-homepage/offline-plugin-app-shell-fallback/index.html`
+  const offlineShell = `/hochzeit/offline-plugin-app-shell-fallback/index.html`
   const offlineShellWithKey = workbox.precaching.getCacheKeyForURL(offlineShell)
   return await caches.match(offlineShellWithKey)
 })
