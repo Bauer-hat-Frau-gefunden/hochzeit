@@ -9,9 +9,9 @@ const setUser = user =>
 export const handleLogin = ({ username, password }) => {
     if (username === `Hochzeit` && password === `12122020`) {
         return setUser({
-            username: `matze`,
-            name: `Matze`,
-            email: `Matze@example.org`,
+            username: `Hochzeit`,
+            name: `Hochzeit`,
+            email: `Hochzeit@example.org`,
         })
     }
     return false
