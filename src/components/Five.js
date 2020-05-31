@@ -9,12 +9,12 @@ const Five = props => (
                     <h2>Anmeldung</h2>
                     <p>Wir haben das komplette Haus mit Übernachtungsmöglichkeiten gemietet für eine
                         ausgelassene Feier an diesem schönen Tag. Wir würden uns sehr freuen, wenn ihr
-                        über Nacht bleibt und wir am nächsten Tag noch ein schönes gemeinsames
-                        Frühstück veranstalten. Für unsere Planung würden wir euch bitten euch über den
-                        untenstehenden Button anzumelden, beziehungsweise abzumelden.</p>
+                        über Nacht bleibt und wir somit am nächsten Tag noch ein schönes gemeinsames
+                        Frühstück veranstalten dürfen. Für unsere Planung bitten wir um Anmeldung bzw.
+                        Abmeldung über den untenstehenden button.</p>
                 </header>
                 <a href="/hochzeit/anmeldung" className="button primary">
-                   Zur Anmeldung
+                    Zur Anmeldung
                 </a>
             </div>
         </Fade>

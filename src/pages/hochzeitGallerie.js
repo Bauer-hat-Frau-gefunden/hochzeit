@@ -16,7 +16,7 @@ const HochzeitGallerie = props => (
                 <div id="main" className="wrapper style1">
                     <div className="container">
                         <header className="major">
-                            <h2>Hochzeit Galerie</h2>
+                            <h2>Hochzeit</h2>
                             <p>
                                 Hier entsteht eine Galerie mit allen Bildern, die während der Hochzeit
                                 entstanden sind. Wir bitten um etwas Geduld bis diese erstellt ist.

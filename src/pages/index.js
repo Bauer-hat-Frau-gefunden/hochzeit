@@ -20,10 +20,9 @@ class Home extends React.Component {
                 <Layout location="/">
                     <Helmet
                         htmlAttributes={{lang: 'en'}}
-                        title="Gatsby Starter - Landed"
+                        title="Hochzeit Bianca und Elias Bauer"
                         meta={[
-                            {name: 'description', content: 'Landed Gatsby Starter'},
-                            {name: 'keywords', content: 'sample, something'},
+                            {name: 'description', content: 'Hochzeit Bianca und Elias Bauer'},
                         ]}
                     ></Helmet>
                     <Banner/>

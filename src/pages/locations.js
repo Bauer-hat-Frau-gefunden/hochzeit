@@ -49,12 +49,12 @@ const Locations = props => (
                                         <span className="image right">
                           <img src={Naturfreundehaus} alt=""/>
                         </span>
-                                        Die Bergkirche liegt wunderschön gelegen in der Ortschaft Büsingen am
-                                        Hochrhein an der Grenze zur Schweiz. Es handelt sich hierbei um eine
-                                        sogenannte Exklave, beachtet daher bei eurer Anreise, dass ein Grenzübertritt
-                                        notwendig ist. Diese Kirche ist leider nicht beheizt, daher bitten wir dies bei
-                                        eurer Kleiderwahl zu beachten. Der anschließende Sektempfang nach der
-                                        Trauung wird beim Naturfreundehaus in Radolfzell-Markelfingen stattfinden.
+                                        Die Feier wird im Naturfreundehaus in Radolfzell-Markelfingen stattfinden. Dort
+                                        haben wir das komplette Haus mit Übernachtungsmöglichkeiten reserviert,
+                                        daher würden wir uns freuen, wenn ihr über Nacht bleibt und uns am nächsten
+                                        Morgen bei einem gemeinsamen Frühstück Gesellschaft leistet.
+                                        Wir sind uns sicher, dass wir zusammen einen wundervollen Tag erleben
+                                        werden.
                                     </p>
                                 </div>
                                 <div style={{textAlign: "center", marginBottom: "50px", marginTop: "20px"}}>

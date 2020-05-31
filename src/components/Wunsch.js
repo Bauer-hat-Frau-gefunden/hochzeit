@@ -5,7 +5,7 @@ import Fade from 'react-reveal/Fade'
 
 const Wunsch = props => (
   <section
-    id="two"
+    id="wunsch"
     className="spotlight style2 right inactive"
     style={{ backgroundImage: `url(${pic09})` }}
   >
@@ -15,7 +15,7 @@ const Wunsch = props => (
     <Fade right big>
       <div className="content">
         <header>
-          <h2>Geschenk-Wunsch</h2>
+          <h2>Geschenkwunsch</h2>
         </header>
         <p>
           Da wir bereits von einem kompletten Haushalt umgeben sind, würden wir uns über ein Geldgeschenk sehr freuen.
@@ -23,7 +23,7 @@ const Wunsch = props => (
       </div>
     </Fade>
     <ScrollLink
-      to="three"
+      to="four"
       className="goto-next"
       activeClass="active"
       smooth={true}
