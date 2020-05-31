@@ -1,27 +1,29 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
+
+import RegisterForm from "../components/RegisterForm";
 import Auth from "../components/Auth";
 import {isLoggedIn} from "../services/auth";
 
-const LeftSidebar = props => (
+const Anmeldung = props => (
     <Auth>
         {isLoggedIn() ? (
             <Layout>
                 <Helmet>
-                    <title>Right Sidebar - Landed by HTML5 UP</title>
-                    <meta name="description" content="Right Sidebar Page"/>
+                    <title>Anmeldung</title>
+                    <meta name="description" content="Anmeldung Page"/>
                 </Helmet>
 
                 <div id="main" className="wrapper style1">
                     <div className="container">
                         <header className="major">
-                            <h2>Hochzeit Galerie</h2>
-                            <p>
-                                Hier entsteht eine Galerie mit allen Bildern der Hochzeit. Bitte habt etwas Geduld bis
-                                diese erstellt sind.
-                            </p>
+                            <h2>Anmeldung zur Hochzeit</h2>
                         </header>
+
+                        <section id="content">
+                            <RegisterForm/>
+                        </section>
                     </div>
                 </div>
             </Layout>
@@ -41,6 +43,6 @@ const LeftSidebar = props => (
             </>
         )}
     </Auth>
-)
+);
 
-export default LeftSidebar
+export default Anmeldung

@@ -1,10 +1,10 @@
 module.exports = {
-  pathPrefix: "/hochzeit-homepage",
+  pathPrefix: "/hochzeit",
   //pathPrefix: `/mygatsby`,
   siteMetadata: {
     title: 'Bianca und Elias Bauer, 12.12.2020',
-    author: 'vasrush',
-    description: 'A Gatsby.js V2 Starter based on Landed by HTML5 UP',
+    author: 'Matthias Hägele, Phillip Amend',
+    description: 'Hochzeit Einladung Bianca und Elias Bauer',
     menuLinks: [
       {
         name: 'Home',
@@ -12,21 +12,20 @@ module.exports = {
       },
       {
         name: 'Galerie',
-        link: '#',
         items: [
           {
             name: 'Standesamt',
-            link: '/left-sidebar',
+            link: '/standesamtGallerie',
           },
           {
             name: 'Hochzeit',
-            link: '/right-sidebar',
+            link: '/hochzeitGallerie',
           },
         ],
       },
       {
         name: 'Anmeldung',
-        link: '/no-sidebar',
+        link: '/anmeldung',
       },
       {
         name: 'Locations',

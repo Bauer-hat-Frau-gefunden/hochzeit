@@ -23,12 +23,14 @@ const One = props => (
             </div>
             <div className="col-4 col-12-medium">
               <p>
-                Die Trauung ist um 13:00 Uhr in der Bergkirche St. Michael in Büsingen.
+                Die Trauung beginnt um 13:00 Uhr in der Bergkirche St. Michael in Büsingen am
+                Hochrhein.
               </p>
             </div>
             <div className="col-4 col-12-medium">
               <p>
-                Die anschließende Feier wird im Naturfreundehaus in Radolfzell-Markelfingen stattfinden.
+                Die anschließende Feier wird im Naturfreundehaus in Radolfzell-Markelfingen
+                stattfinden.
               </p>
             </div>
           </div>

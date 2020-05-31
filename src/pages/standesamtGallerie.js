@@ -10,13 +10,13 @@ import {isLoggedIn} from "../services/auth";
 import Auth from "../components/Auth";
 
 
-const LeftSidebar = props => (
+const StandesamtGallerie = props => (
     <Auth>
         {isLoggedIn() ? (
             <Layout>
                 <Helmet>
-                    <title>Left Sidebar - Landed by HTML5 UP</title>
-                    <meta name="description" content="Left Sidebar Page"/>
+                    <title>Gallerie - Standesamt</title>
+                    <meta name="description" content="Standesamt Gallerie Page"/>
                 </Helmet>
 
                 <div id="main" className="wrapper style1">
@@ -24,7 +24,7 @@ const LeftSidebar = props => (
                         <header className="major">
                             <h2>Standesamt</h2>
                             <p>
-                                Hier findet Ihr alle Bilder die während des Standesamt entstanden sind.
+                                Hier findet Ihr alle Bilder, die während des Standesamtes entstanden sind.
                             </p>
                         </header>
                         <div className="box alt">
@@ -77,4 +77,4 @@ const LeftSidebar = props => (
     </Auth>
 );
 
-export default LeftSidebar
+export default StandesamtGallerie

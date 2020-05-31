@@ -7,10 +7,13 @@ const Five = props => (
             <div className="container">
                 <header>
                     <h2>Anmeldung</h2>
-                    <p>Um die Übernachtungsplätze rechtzeitig zu reservieren, bitten wir euch bei uns Anzumelden.
-                        Hierfür könnt Ihr direkt die Website benutzen.</p>
+                    <p>Wir haben das komplette Haus mit Übernachtungsmöglichkeiten gemietet für eine
+                        ausgelassene Feier an diesem schönen Tag. Wir würden uns sehr freuen, wenn ihr
+                        über Nacht bleibt und wir am nächsten Tag noch ein schönes gemeinsames
+                        Frühstück veranstalten. Für unsere Planung würden wir euch bitten euch über den
+                        untenstehenden Button anzumelden, beziehungsweise abzumelden.</p>
                 </header>
-                <a href="/hochzeit/no-sidebar" className="button primary">
+                <a href="/hochzeit/anmeldung" className="button primary">
                    Zur Anmeldung
                 </a>
             </div>

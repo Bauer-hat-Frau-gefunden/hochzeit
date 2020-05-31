@@ -8,9 +8,9 @@ const Banner = props => (
       <header>
         <h2>Wir heiraten!</h2>
         <p>
-          Bei allem, was ihr tut, lasset euch von der Liebe leiten.
+          Bei allem, was ihr tut, lasst euch von der Liebe leiten.
           <br />
-          1. Korinther 16, 14.
+          1. Korinther 16, 14
         </p>
       </header>
       <span className="image">

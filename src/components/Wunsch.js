@@ -18,7 +18,7 @@ const Wunsch = props => (
           <h2>Geschenk-Wunsch</h2>
         </header>
         <p>
-          Da wir bereits von einem kompletten Haushalt umgeben sind, würden wir uns über ein Geldgeschenkle sehr freuen.
+          Da wir bereits von einem kompletten Haushalt umgeben sind, würden wir uns über ein Geldgeschenk sehr freuen.
         </p>
       </div>
     </Fade>

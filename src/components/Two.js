@@ -15,16 +15,16 @@ const Two = props => (
     <Fade right big>
       <div className="content">
         <header>
-          <h2>Unsere schönen Locations</h2>
+          <h2>Unsere Locations</h2>
         </header>
         <p>
-          Da wir zwei unterschiedliche locations haben, haben wir weitere Informationen und
-          Wegbeschreibungen für euch vorbereitet. Durch ein Klick auf den Button könnt Ihr diese einsehen.
+          Durch Klick auf den Button könnt ihr weitere Informationen zur Kirche und
+          unserer Location einsehen.
         </p>
         <ul className="actions">
           <li>
             <a href="/hochzeit/locations" className="button">
-              Mehr details
+              Mehr Details
             </a>
           </li>
         </ul>
